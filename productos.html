@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Productos | Burger House</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container nav">
+
+            <a href="index.html" class="logo">🍔 BURGER HOUSE</a>
+
+            <nav class="nav-links">
+
+                <a href="index.html">Inicio</a>
+
+                <a href="productos.html">Productos</a>
+
+                <a href="nosotros.html">Nosotros</a>
+
+                <a href="contacto.html">Contacto</a>
+
+                <a href="dashboard.html">Dashboard</a>
+
+                <a href="faq.html">FAQ</a>
+
+                <a href="carrito.html" class="cart-link">
+                    🛒 Carrito (<span id="cart-count">0</span>)
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+
+            <h1>NUESTRO MENÚ</h1>
+
+            <p>Descubre nuestras hamburguesas y combos.</p>
+
+        </section>
+
+        <section>
+
+            <div class="container">
+
+                <!-- BUSCADOR -->
+
+                <div class="filters">
+
+                    <input
+                        type="search"
+                        id="search-product"
+                        placeholder="Buscar producto..."
+                    >
+
+                    <!-- CATEGORÍAS -->
+
+                    <select id="category-filter">
+
+                        <option value="Todos">
+                            Todas las categorías
+                        </option>
+
+                    </select>
+
+                    <!-- ORDENAR -->
+
+                    <select id="sort-price">
+
+                        <option value="default">
+                            Ordenar por precio
+                        </option>
+
+                        <option value="asc">
+                            Menor precio
+                        </option>
+
+                        <option value="desc">
+                            Mayor precio
+                        </option>
+
+                    </select>
+
+                    <!-- DISPONIBILIDAD -->
+
+                    <select id="stock-filter">
+
+                        <option value="Todos">
+                            Todo el stock
+                        </option>
+
+                        <option value="disponible">
+                            Disponibles
+                        </option>
+
+                        <option value="agotado">
+                            Agotados
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <h3 id="result-count"></h3>
+
+                <br>
+
+                <!-- AQUÍ APARECERÁN LOS PRODUCTOS -->
+
+                <div id="products-container" class="grid">
+
+                    <p>Cargando productos...</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>BURGER HOUSE</h3>
+
+                <p>El verdadero sabor de una buena hamburguesa.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Enlaces</h3>
+
+                <p><a href="index.html">Inicio</a></p>
+
+                <p><a href="nosotros.html">Nosotros</a></p>
+
+            </div>
+
+            <div>
+
+                <h3>Contacto</h3>
+
+                <p>Oruro - Bolivia</p>
+
+                <p>70000000</p>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 Burger House
+
+        </div>
+
+    </footer>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/productos.js"></script>
+
+</body>
+
+</html>

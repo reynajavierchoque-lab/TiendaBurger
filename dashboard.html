@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Burger House</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container nav">
+
+            <a href="index.html" class="logo">🍔 BURGER HOUSE</a>
+
+            <nav class="nav-links">
+
+                <a href="index.html">Inicio</a>
+
+                <a href="productos.html">Productos</a>
+
+                <a href="nosotros.html">Nosotros</a>
+
+                <a href="contacto.html">Contacto</a>
+
+                <a href="dashboard.html">Dashboard</a>
+
+                <a href="faq.html">FAQ</a>
+
+                <a href="carrito.html" class="cart-link">
+                    🛒 Carrito (<span id="cart-count">0</span>)
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+
+            <h1>DASHBOARD</h1>
+
+            <p>Panel de control de Burger House</p>
+
+        </section>
+
+        <section>
+
+            <div class="container">
+
+                <p id="updated-at">
+                    Actualizando información...
+                </p>
+
+                <br>
+
+                <!-- INDICADORES -->
+
+                <div id="kpi-container" class="stats-grid">
+
+                    <p>Cargando estadísticas...</p>
+
+                </div>
+
+                <br><br>
+
+                <!-- GRÁFICOS -->
+
+                <div class="dash-grid">
+
+                    <div class="panel">
+
+                        <h2>Productos por categoría</h2>
+
+                        <br>
+
+                        <div id="category-chart"></div>
+
+                    </div>
+
+                    <div class="panel">
+
+                        <h2>Distribución del stock</h2>
+
+                        <br>
+
+                        <div id="stock-chart"></div>
+
+                    </div>
+
+                </div>
+
+                <br><br>
+
+                <!-- TABLA -->
+
+                <div class="panel">
+
+                    <h2>Productos con bajo inventario</h2>
+
+                    <br>
+
+                    <div class="table-wrap">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Producto</th>
+
+                                    <th>Categoría</th>
+
+                                    <th>Stock</th>
+
+                                    <th>Estado</th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="low-stock-table">
+
+                                <tr>
+
+                                    <td colspan="4">
+                                        Cargando...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>BURGER HOUSE</h3>
+
+                <p>Panel administrativo de la tienda.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Enlaces</h3>
+
+                <p><a href="index.html">Inicio</a></p>
+
+                <p><a href="productos.html">Productos</a></p>
+
+            </div>
+
+            <div>
+
+                <h3>Ubicación</h3>
+
+                <p>Oruro - Bolivia</p>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Burger House
+        </div>
+
+    </footer>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/dashboard.js"></script>
+
+</body>
+
+</html>

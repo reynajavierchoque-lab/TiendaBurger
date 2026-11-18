@@ -1,0 +1,138 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Clásica Burger",
+    "descripcion": "Carne, queso cheddar, lechuga, tomate y salsa de la casa.",
+    "precio": 25,
+    "categoria": "Hamburguesas",
+    "stock": 18,
+   "imagen": "img/hamburguesa1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Doble Cheese",
+    "descripcion": "Doble carne, doble queso cheddar y salsa especial.",
+    "precio": 35,
+    "categoria": "Hamburguesas",
+    "stock": 12,
+    "imagen": "img/hamburguesa2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "BBQ Bacon",
+    "descripcion": "Carne, tocino, queso y salsa barbacoa.",
+    "precio": 38,
+    "categoria": "Hamburguesas",
+    "stock": 8,
+    "imagen":  "img/hamburguesa3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Chicken Crispy",
+    "descripcion": "Pollo crocante, lechuga y mayonesa.",
+    "precio": 30,
+    "categoria": "Hamburguesas",
+    "stock": 14,
+    "imagen":"img/chicken.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Hawaiana Burger",
+    "descripcion": "Carne, queso y piña grillada.",
+    "precio": 32,
+    "categoria": "Hamburguesas",
+    "stock": 5,
+    "imagen": "img/hawaiana.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Mega House",
+    "descripcion": "Triple carne, queso y salsa especial.",
+    "precio": 48,
+    "categoria": "Hamburguesas",
+    "stock": 3,
+    "imagen": "img/mega.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Papas Clásicas",
+    "descripcion": "Porción de papas fritas doradas y crujientes.",
+    "precio": 12,
+    "categoria": "Acompañamientos",
+    "stock": 25,
+    "imagen":  "img/papas.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Aros de Cebolla",
+    "descripcion": "Aros de cebolla empanizados y crocantes.",
+    "precio": 15,
+    "categoria": "Acompañamientos",
+    "stock": 10,
+    "imagen": "img/aros.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Nuggets x6",
+    "descripcion": "Seis nuggets de pollo con salsa.",
+    "precio": 18,
+    "categoria": "Acompañamientos",
+    "stock": 2,
+    "imagen":"img/nuggets.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Papas con Cheddar",
+    "descripcion": "Papas fritas cubiertas con queso cheddar.",
+    "precio": 20,
+    "categoria": "Acompañamientos",
+    "stock": 7,
+    "imagen":"img/papasCheddar.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Gaseosa Personal",
+    "descripcion": "Bebida gaseosa fría de 500 ml.",
+    "precio": 8,
+    "categoria": "Bebidas",
+    "stock": 30,
+    "imagen": "img/bebida.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Limonada",
+    "descripcion": "Limonada natural preparada al momento.",
+    "precio": 10,
+    "categoria": "Bebidas",
+    "stock": 16,
+    "imagen":  "img/limonada.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Milkshake Chocolate",
+    "descripcion": "Batido cremoso de chocolate.",
+    "precio": 18,
+    "categoria": "Bebidas",
+    "stock": 4,
+    "imagen":"img/milkshake.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Combo Clásico",
+    "descripcion": "Clásica Burger, papas y gaseosa.",
+    "precio": 40,
+    "categoria": "Combos",
+    "stock": 9,
+    "imagen": "img/comboClasico.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Combo Doble",
+    "descripcion": "Doble Cheese, papas con cheddar y dos bebidas.",
+    "precio": 58,
+    "categoria": "Combos",
+    "stock": 0,
+    "imagen":"img/comboDoble.jpg"
+  }
+]
